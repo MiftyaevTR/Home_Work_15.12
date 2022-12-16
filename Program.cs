@@ -19,7 +19,7 @@ else
 */
 
 // Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
-
+/*
 Console.Write("Pls inter a number1: ");
 int num1 = Convert.ToInt32(Console.ReadLine());
 
@@ -45,4 +45,37 @@ if (num3>num2 && num3>num1)
     max_num= num3;
 }
 Console.WriteLine("The max number is "+  max_num);
+*/
+
+// Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+/*
+Console.Write("Просьба ввести число: ");
+int num = Convert.ToInt32(Console.ReadLine());
+
+if (num % 2 == 0)
+{
+    Console.WriteLine("Число чётное!");
+}
+else
+{
+    Console.WriteLine("Число не чётное!");
+}
+*/
+
+// Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+
+Console.Write("Просьба ввести число: "); 
+
+int num = Convert.ToInt32(Console.ReadLine());
+
+int start = 1;
+
+while (start<= num)
+{
+    if (start % 2 ==0)
+    {
+        Console.Write(start + " " );
+    }
+    start += 1;
+}
 
